@@ -1,0 +1,13 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    weburl: https://github.com/Sapping/CST8132-Todo-List
+    description: A Java todo list application, developped as part of my Object-Oriented Programming class.
+
+  - icon: fa fa-github
+    weburl: https://github.com/Sapping/reddit-evernote-saver
+    description: Reddit Evernote Saver is a Python script that fetches a reddit user's comments and then saves each one as an appropriately tagged note in Evernote.
+
+  - icon: fa fa-github
+    weburl: https://github.com/Sapping/Spoonerize
+    description: Spoonerize is a Python script that looks through a provided string for potential spoonerisms.

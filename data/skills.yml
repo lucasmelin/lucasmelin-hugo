@@ -1,0 +1,15 @@
+name: Programming Skills
+title: Software engineering & web development
+source:
+
+  - name: [Java, Python, VBA]
+    stars: 4
+
+  - name: [PHP, PostGreSQL, Git]
+    stars: 3
+  
+  - name: [HTML/CSS3, Javascript]
+    stars: 2
+
+  - name: [C]
+    stars: 1
