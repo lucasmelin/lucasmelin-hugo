@@ -1,44 +1,51 @@
-baseurl = "http://lucasmelin.com"
-languageCode = "en-US"
 title = "Lucas Melin"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
+baseURL = "http://lucasmelin.com"
+tags = ["portfolio", "web design", "blog"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
 googleAnalytics = ""
-theme = "hugo-sustain"
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Lucas Melin"
+    author = "Lucas Melin"
+    description = "Computer Engineering Student and QA Analyst in Ottawa, ON."
+    logoBig = "/images/logo.png"
+    logoSmall = "/images/logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/logo.png"
+    twitter = "sapping"
+    linkedin = "melinlucas"
+    github = "lucasmelin"
+    email = "lucasmelin@gmail.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+    gallery = "/" # Redirect gallery index to home page
 
-[params]
-  avatar = "profile.png"
-  author = "Lucas Melin"
-  description = "Intensely Interested in the intricate"
-  city = "Ottawa"
-  country = "Canada"
-
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
-
-[params.social]
-  Github        = "sapping"
-  Email         = "lucasmelin@gmail.com"
-  LinkedIn      = "melinlucas"
-
-## Main Menu
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+    name = "About"
+    url  = "/#about"
+    weight = 1
 [[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
+    name = "Work"
+    url  = "/#work"
+    weight = 2
 [[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/"
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4

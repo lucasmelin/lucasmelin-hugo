@@ -4,8 +4,6 @@
     "highlight": "true"
 }
 
-# A lesson learned in including javascript libraries properly
-
 I figured I'd sit down and quickly add a navigation header to my site just to have it in place, so that I could add links to it later.
 
 After reading over the Bootstrap documentation, I thought it seemed rather straight-forward, so I quickly whipped up a few lines of [Jade](http://jade-lang.com/) into a serviceable navigation header with a few link elements in it — one to the homepage and one to the blog portion.

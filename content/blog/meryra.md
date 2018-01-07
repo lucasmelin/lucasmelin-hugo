@@ -3,9 +3,6 @@
         "date": "2014-11-17"
 }
 
-
-# Meryra, right hand of the Heretic King
-
 Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
 
 Meryre or Meryra was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King. Being the king’s right-hand man ensured him a prime burial location in the king’s new city.

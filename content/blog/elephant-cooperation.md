@@ -3,8 +3,6 @@
     "date": "2014-11-22"
 }
 
-# Elephants learn to cooperate
-
 Despite the fact that elephants are known to be highly intelligent, little research has been done to test the extent of their cognitive abilities, primarily due to the size of the animals, which poses significant difficulties and dangers during the course of behavioural testing.
 
 Recently however, comparative psychologist [Joshua Plotnik](http://www.emory.edu/LIVING_LINKS/plotnik.html "Living Links Center, Emory University") modified a test previously performed on chimpanzees, in an effort to test the cooperative skills of Asian elephants. This experiment was conducted using twelve male and female elephants at the Thai Elephant Conservation Center in Lampang, Thailand.

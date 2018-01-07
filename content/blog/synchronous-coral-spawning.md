@@ -3,8 +3,6 @@
         "date": "2014-11-22"
 }
 
-# Synchronous spawning in corals and sea urchins
-
 Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up. However, there is much debate as to the nature of the cue itself.
 
 A paper put forth by _Levy et al._ in 2007 hinted that cryptochrome protein cycling, which regulates circadian rhythms in plants and animals based on the levels of blue light, was set according to lunar cycles and enabled the coral to determine the month and day. Similarly, in 1988 Cynthia Hunter showed that lunar phase, seawater temperature and day length all have an impact on the spawning period of several coral species.

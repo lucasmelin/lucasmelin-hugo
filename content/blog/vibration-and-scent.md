@@ -3,8 +3,6 @@
         "date": "2014-11-22"
 }
 
-# I vibrate, therefore I smell
-
 Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can't tell the difference. But here's the catch - we can.
 
 For example, [ethanol](http://en.wikipedia.org/wiki/Ethanol) and [ethanethiol](http://en.wikipedia.org/wiki/Ethanethiol) share the same shape. The only difference is that ethanol has an oxygen atom in place of a sulphur atom. But ethanethiol smells like rotten eggs, whereas ethanol smells slightly like alcohol. If smell depended on shape alone, these two molecules would smell the same. Scientists believe to have discovered why they don't: they vibrate differently.

@@ -2,8 +2,6 @@
         "title": "Norman Foster",
         "date": "2014-11-22"
 }
-  
-# Norman Foster
 
 <div class="row">
   <div class="col-xs-12 col-md-6 col-md-push-6">
