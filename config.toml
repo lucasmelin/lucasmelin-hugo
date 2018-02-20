@@ -1,5 +1,5 @@
 title = "Lucas Melin"
-baseURL = "http://lucasmelin.com"
+baseURL = "https://amazing-sammet-36d9f0.netlify.com/"
 tags = ["portfolio", "web design", "blog"]
 languageCode = "en-US"
 config = "config.toml"
