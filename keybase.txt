@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/lucasmelin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.lucasmelin.com
+  * I am lucasmelin (https://keybase.io/lucasmelin) on keybase.
+  * I have a public key ASD1oTmKJ92L57J1T-eD0Z3XUcgtVmEEyd_7agNebXlzbwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f5a1398a27dd8be7b2754fe783d19dd751c82d566104c9dffb6a035e6d79736f0a",
+      "host": "keybase.io",
+      "kid": "0120f5a1398a27dd8be7b2754fe783d19dd751c82d566104c9dffb6a035e6d79736f0a",
+      "uid": "3f9b38809dcdb5a3cd95c58fb555e919",
+      "username": "lucasmelin"
+    },
+    "merkle_root": {
+      "ctime": 1519268909,
+      "hash": "9c6075aabd3fb09279764156a2b794b0e5e11a51e994eb77a905b6efdefcdedae981039b5847ebf28c9ae1b77d57a806b7fd43e6fbd059ff827c03c25865e778",
+      "hash_meta": "6000d8e61e5b9f0ddfc9d7c4f942bedf0ca39d28dedeb8b2f807d33f55186e33",
+      "seqno": 2135861
+    },
+    "service": {
+      "hostname": "www.lucasmelin.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.41"
+  },
+  "ctime": 1519268939,
+  "expire_in": 504576000,
+  "prev": "735d30f5a318b692e6e84da93797fe76742f8beeea1802b8c722db67140f9716",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9aE5iifdi+eydU/ng9Gd11HILVZhBMnf+2oDXm15c28Kp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjVhMTM5OGEyN2RkOGJlN2IyNzU0ZmU3ODNkMTlkZDc1MWM4MmQ1NjYxMDRjOWRmZmI2YTAzNWU2ZDc5NzM2ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjVhMTM5OGEyN2RkOGJlN2IyNzU0ZmU3ODNkMTlkZDc1MWM4MmQ1NjYxMDRjOWRmZmI2YTAzNWU2ZDc5NzM2ZjBhIiwidWlkIjoiM2Y5YjM4ODA5ZGNkYjVhM2NkOTVjNThmYjU1NWU5MTkiLCJ1c2VybmFtZSI6Imx1Y2FzbWVsaW4ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTkyNjg5MDksImhhc2giOiI5YzYwNzVhYWJkM2ZiMDkyNzk3NjQxNTZhMmI3OTRiMGU1ZTExYTUxZTk5NGViNzdhOTA1YjZlZmRlZmNkZWRhZTk4MTAzOWI1ODQ3ZWJmMjhjOWFlMWI3N2Q1N2E4MDZiN2ZkNDNlNmZiZDA1OWZmODI3YzAzYzI1ODY1ZTc3OCIsImhhc2hfbWV0YSI6IjYwMDBkOGU2MWU1YjlmMGRkZmM5ZDdjNGY5NDJiZWRmMGNhMzlkMjhkZWRlYjhiMmY4MDdkMzNmNTUxODZlMzMiLCJzZXFubyI6MjEzNTg2MX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cubHVjYXNtZWxpbi5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40MSJ9LCJjdGltZSI6MTUxOTI2ODkzOSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI3MzVkMzBmNWEzMThiNjkyZTZlODRkYTkzNzk3ZmU3Njc0MmY4YmVlZWExODAyYjhjNzIyZGI2NzE0MGY5NzE2Iiwic2Vxbm8iOjE1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEbZlpQyrDOsrU5YnYeQjHJoc/AKIvujTEWh4PHEcbqpkVTZvkuZLvMW26lvIyG2C2cbUmFYyuCPAQPKzaq27QWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDTqE/ViH8fTE7uAKn1EcoMbpz19o1S7zGJNXmbwtGp6KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lucasmelin
+
+==================================================================
