@@ -1,3 +1,6 @@
 [submodule "themes/osprey"]
 	path = themes/osprey
 	url = https://github.com/tomanistor/osprey
+[submodule "content/langtonsant"]
+	path = content/langtonsant
+	url = https://github.com/lucasmelin/langtonsant
