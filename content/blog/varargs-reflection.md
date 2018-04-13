@@ -12,7 +12,6 @@ For testing this form, I didn't want to have a test method that took in 50 strin
 This meant that instead of my method looking like this:
 
 ```
-
 public void formTest(String foo, String bar, String baz, String buzz){
     
     inputValueForFoo(foo);
@@ -20,7 +19,6 @@ public void formTest(String foo, String bar, String baz, String buzz){
     inputValueForBaz(baz);
     inputValueForBuzz(buzz);
 }
-
 ```
 
 it instead looked something like the following:
@@ -33,17 +31,17 @@ public void formTest(FormType1 form){
     inputValueForBaz(form.getBaz());
     inputValueForBuzz(form.getBuzz());
 }
-
 ```
 
 which was already a bit better than before. This also resolves the issue of Java not having optional or default parameter values. For instance, if I only used methods that took in strings, then I couldn't have the following two methods since they share the same signature:
 
 ```
 public void formTest(String foo, String bar){
-
+  /* Constructor stuff here */
 }
 
 public void formTest(String foo, String baz){
+  /* Constructor stuff here */
 }
 ```
 
@@ -59,8 +57,6 @@ At this point, I felt as though I had just shuffled the complexity around. I now
 The problem with this approach was that I would need a constructor for every number of fields such as:
 
 ```
-
-``
 public FormType(String foo){
     this.foo = foo;
 }
@@ -84,11 +80,11 @@ public FormType(String foo, String baz, String bar, String buzz){
 }
 ```
 
-and this logic would need to be repeated for every form type. Since I have about 8 different form types, that would mean 8 * 50 = 400 constructors spread across 8 class files, along with the constructors in the super class. Not really any easier, or more maintainable.
+And this logic would need to be repeated for every form type. Since I have about 8 different form types, that would mean 8 * 50 = 400 constructors spread across 8 class files, along with the constructors in the super class. Not really any easier, or more maintainable.
 
 ### Vararg Constructors
 
-To cut down on the number of constructors, I decided to try implementing a [varargs](https://docs.oracle.com/javase/8/docs/technotes/guides/language/varargs.html) constructor. Java allows for passing in a variable number of arguments using the **...** syntax like so:
+To cut down on the number of constructors, I decided to try implementing a [varargs](https://docs.oracle.com/javase/8/docs/technotes/guides/language/varargs.html) constructor. Java allows for passing in a variable number of arguments using the ... syntax like so:
 
 ```
 public Polygon polygonFrom(Point... corners) {
@@ -100,7 +96,6 @@ public Polygon polygonFrom(Point... corners) {
                      * (corners[1].y - corners[0].y);
     lengthOfSide1 = Math.sqrt(squareOfSide1);
 }
-
 ```
 
 which means that instead of having 50 different constructors, we could have just one. However, one of the tradeoffs of using varargs (which in our case is just an array of strings) is that we can't rely on knowing ahead of time how many arguments will be passed in. This means that the following code block could end up throwing an OutOfBoundsException:
@@ -112,10 +107,9 @@ public FormType(String... values){
     this.bar = values[2];
     this.buzz = values[3];
 }
-
 ```
 
-Normally in a method that takes varargs, we perform the same action on each parameter using a forEach loop, such as in the case of printf, which takes a variable number of arguments and prints them. But since we're wanting to assign member variables, we can't handle these varargs in a forEach loop. Instead, the way I ended up dealing with the varargs ended up being pretty messy, but it worked:
+Normally in a method that takes varargs, we perform the same action on each parameter using a **forEach** loop, such as in the case of printf, which takes a variable number of arguments and prints them. But since we're wanting to assign member variables, we can't handle these varargs in a **forEach** loop. Instead, the way I ended up dealing with the varargs ended up being pretty messy, but it (more or less) worked:
 
 
 ```
@@ -152,29 +146,29 @@ public FormType(String... values){
         break;
     }
 }
-
 ```
 
-Now, most of the constructors were able to be replaced with this single "varargs constructor". I still wasn't happy though - it seemed like a terribly ugly and inefficient solution. However, if there was a problem with the order in which the strings were being passed in, I would be able to check inside of this single constructor, instead of searching through dozens of similar-looking constructors.
+Now, most of the constructors were able to be replaced with this single "varargs constructor". I still wasn't happy though - it seemed like a terribly ugly and inefficient solution. However, the advantage to having this constructor was that if there was a problem with the order in which the strings were being passed in, I would be able to check inside of this single constructor, instead of searching through dozens of similar-looking constructors.
 
 
 ### Reflection rescue
 
 
-Since I wanted to be able to choose the form type at runtime, I was using reflection to find the appropriate class constructor. This means that we can pass in a string variable and find the class that has that name. Using the MethodHandles Java API, we can get the constructor of the class and instantiate a new object of that class at runtime.
+Since I wanted to be able to choose the form type at test runtime, I was using reflection to find the appropriate class constructor. This means that we can pass in a string variable and find the class that has that name. Using the [MethodHandles Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/invoke/MethodHandles.html), we can get the constructor of any class and instantiate a new object of that class at runtime.
 
-At this point, I somewhat embarrassedly showed my code to one of my colleages and asked if he knew of a better way to do what I was trying to accomplish. He pointed out that you could not only call a constructor through reflection, but also the getters and the setters inside a class.
+At this point, I somewhat embarrassedly showed my code to one of my colleagues and asked if he knew of a better way to do what I was trying to accomplish. He pointed out that you could not only call a constructor through reflection, but also the getters and the setters inside a class.
 
 ```
 FormType form = new FormType();
 PropertyDescriptor pd = new PropertyDescriptor("field", FormType.class);
 Method setter = pd.getWriteMethod();
 setter.invoke(form, value);
-
 ```
 
-This simplified things immensely for me. The way I was passing in the test data was by parsing rows out of an Excel spreadsheet. By setting the column headers to the same name as the member variables, I could find the appropriate setter for each field using reflection. I could remove the hideous "varargs constructor" and instead just have an empty constructor in the class. Then, I could set each member variable using the setter for that variable.
+This simplified things *immensely* for me.
 
-Now, when parsing the Excel spreadsheet, I create an ArrayList of all the headers. For each row, I call the no-args constructor, and for each cell value, I find the getter for that column through reflection by passing in the value from the header.
+The way I was passing in the test data was by parsing rows out of an Excel spreadsheet. By setting the column headers to the same name as the member variables, I could find the appropriate setter for each field using reflection. I could remove the hideous "varargs constructor" and instead just have an empty constructor. Then, I could set each member variable using the dedicated setter for that variable.
+
+Now, when parsing the Excel spreadsheet, I create an ArrayList of all the headers. For each row, I call the no-args constructor, and for each cell value, I find the setter for that column through reflection by passing in the value from the header.
 
 So much simpler, and it means that my 8 classes with 50 constructors has finally become a single class with a single constructor, and setter/getter pair for each possible form field.
