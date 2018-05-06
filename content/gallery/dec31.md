@@ -6,5 +6,5 @@ alt = "December 31 - a simple game built in AngularJS"
 color = "#E8434A"
 link1 = "https://github.com/lucasmelin/dec31"
 link2 = ""
-draft = false
+draft = true
 +++
