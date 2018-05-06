@@ -6,5 +6,5 @@ alt = "Droppod - A JavaEE Podcasting Application"
 color = "#7EAE65"
 link1 = "https://github.com/lucasmelin/droppod"
 link2 = ""
-draft = true
+draft = false
 +++
