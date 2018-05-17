@@ -4,7 +4,7 @@ source:
   - prof: Quality Assurance Analyst
     place: Bank of Canada, Ottawa, Canada
     time: 2017 to present
-    description: Automated test development. Selenium browser-based testing. Performance testing using python and salt-stack.
+    description: Automated test development. Developed test automation framework in Java. Selenium browser-based testing. Performance testing using  JMeter, Python and salt-stack.
 
   - prof: Identity Management Specialist
     place: Bank of Canada, Ottawa, Canada

@@ -3,13 +3,13 @@ title: Software engineering & web development
 source:
 
   - name: [Java, Python, VBA]
-    stars: 4
+    stars: 5
 
   - name: [PHP, PostGreSQL, Git]
     stars: 3
   
-  - name: [HTML/CSS3, Javascript]
-    stars: 2
+  - name: [HTML/CSS3, Javascript, React, GraphQL]
+    stars: 4
 
-  - name: [C]
-    stars: 1
+  - name: [C, C++, C#]
+    stars: 3
