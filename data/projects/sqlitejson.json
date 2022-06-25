@@ -1,0 +1,6 @@
+{
+  "Title": "SQLite JSON 101",
+  "Link": "https://katacoda.com/lucasmelin/scenarios/sqlite-json-101",
+  "Background": "linear-gradient(to top right, #3045fe 0%, #16cb89 100%)",
+  "Description": "Katacoda course on working with JSON data using SQLite"
+}

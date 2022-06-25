@@ -1,0 +1,6 @@
+{
+  "Title": "Ant Facts",
+  "Link": "https://www.amazon.com/dp/B079X4T9WV/",
+  "Background": "linear-gradient(to top right, #D4145A 0%, #FBB03B 100%)",
+  "Description": "An Amazon Alexa voice skill built using AWS Lambda and NodeJS"
+}

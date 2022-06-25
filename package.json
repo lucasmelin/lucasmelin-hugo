@@ -1,0 +1,27 @@
+{
+  "name": "lucasmelin-hugo",
+  "version": "1.4.0",
+  "description": "Personal site for Lucas Melin",
+  "main": "index.js",
+  "repository": "github.com/lucasmelin/lucasmelin-hugo",
+  "author": "Varun A P",
+  "license": "MIT",
+  "scripts": {
+    "start": "hugo server --disableFastRender",
+    "build": "NODE_ENV=production hugo --gc"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "tailwindcss": "^2.1.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

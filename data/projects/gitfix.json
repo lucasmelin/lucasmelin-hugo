@@ -1,0 +1,6 @@
+{
+  "Title": "GitFix",
+  "Link": "https://github.com/lucasmelin/gitfix",
+  "Background": "linear-gradient(to top right, #6666DE, #5778C9, #94D1C9, #A1D8FF)",
+  "Description": "Terminal application to help recover from a broken git state"
+}
