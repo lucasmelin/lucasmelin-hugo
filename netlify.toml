@@ -10,4 +10,4 @@ HUGO_ENV = "production"
   # Define which paths this specific [[headers]] block will cover.
   for = "/*"
     [headers.values]
-    Access-Control-Allow-Origin = "https://master--amazing-sammet-36d9f0.netlify.app"
+    Access-Control-Allow-Origin = "*"
