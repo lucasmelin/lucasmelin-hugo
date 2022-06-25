@@ -5,3 +5,9 @@ publish = "public"
 [context.production.environment]
 HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "https://lucasmelin.com"
