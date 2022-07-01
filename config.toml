@@ -74,3 +74,6 @@ DefaultContentLanguageInSubdir = false
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true
+
+[Permalinks]
+  blog = "/:title/"

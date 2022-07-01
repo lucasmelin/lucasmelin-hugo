@@ -1,4 +1,65 @@
 /* Custom Styles */
 body {
   font-family: "IBM Plex Sans", sans-serif;
+  counter-reset: sidenote-counter;
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+
+
+/* Counter in the margin. */
+.sidenote::before {
+  content: counter(sidenote-counter)".";
+  position: relative;
+  vertical-align: baseline;
+  font-size: .9em;
+  font-weight: 700;
+}
+
+/* Counter in the main body. */
+.sidenote-number::after {
+  content: counter(sidenote-counter);
+  vertical-align: super;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.sidenote {
+  font-family: sans-serif;
+  font-size: 80%;
+  font-weight: 400;
+  color: var(--theme-hl1-color);
+  position: relative;
+}
+
+/* Wide viewport. */
+@media (min-width: 1400px){
+  .sidenote {
+      float: left;
+      clear: left;
+      text-align: right;
+      top: -3rem;
+      width: 20vw;
+      margin-left: -23vw;
+      margin-top: 1rem;
+  }
+  .sidenote-number:hover .sidenote {
+    background-color: rgb(27, 30, 38);
+  }
+}
+
+/* Narrow viewport. */
+@media (max-width: 1400px) {
+  .sidenote {
+      float: left;
+      text-align: left;
+
+      width: 100%;
+      margin: 1rem 0;
+      padding-left: 5%;
+  }
 }
