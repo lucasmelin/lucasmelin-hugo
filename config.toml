@@ -13,7 +13,7 @@ DefaultContentLanguageInSubdir = false
     [languages.en.params]
       introTitle = "Hey! I'm Lucas Melin"
       introSubtitle = "I love coming up with creative solutions to challenging puzzles. Passionate about helping developers succeed."
-      introPhoto = "/picture.png"
+      introPhoto = "/picture.webp"
 
     [[languages.en.menu.main]]
         name = "Blog"
