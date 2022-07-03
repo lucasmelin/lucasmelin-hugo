@@ -1,22 +1,10 @@
-<div class="p-2">
+<div class="p-2 bg-blue-200 dark:bg-gray-900">
   <a href="{{ .Permalink }}">
-    {{ if .Params.thumbnail }}
-    <div class="relative">
-      <img
-        src="{{ .Params.thumbnail }}?w=500"
-        alt="{{ .Params.title }}"
-        class="rounded-lg shadow-sm w-full h-52 object-cover"
-      />
-      <div
-        class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5"
-      >
-        {{ partial "date.html" (dict "date" .Date "language" $.Page.Language
-        "format" "short") }}
-      </div>
+    <div class="my-2 text-lg font-semibold">{{ .Params.title }}</div>
+    <div class="my-1 text-sm">
+      {{ partial "date.html" (dict "date" .Date "format" "long") }}
     </div>
-    {{ end }}
-    <div class="my-2 text-xl font-semibold">{{ .Params.title }}</div>
-    <div class="">{{ .Params.description }}</div>
+    <div class="my-1 text-md">{{ .Params.description }}</div>
   </a>
   {{ if .IsTranslated -}}
   <div class="" style="font-style: italic; font-size: smaller">

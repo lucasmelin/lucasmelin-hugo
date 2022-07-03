@@ -1,8 +1,7 @@
 ---
 date: "2018-02-20"
 title: "AWK Built-in Variables"
-category: "Unix"
-thumbnail: https://picsum.photos/id/935/400/250
+category: "unix"
 ---
 
 A common choice for manipulating and processing large text files on UNIX systems is awk. I was using awk in March of last year and thought it would be helpful to have a list of built-in variables in awk for future reference.

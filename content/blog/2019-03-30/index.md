@@ -1,8 +1,7 @@
 ---
 date: "2019-03-30"
 title: "Getting started with fbprophet on Windows 10"
-category: "Programming"
-thumbnail: https://images.unsplash.com/photo-1432691301971-c8b920198bd7
+category: "programming"
 ---
 
 I recently decided to look at my past purchases, and see if I could leverage that data to predict some of my personal spending trends.

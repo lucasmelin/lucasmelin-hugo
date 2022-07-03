@@ -1,8 +1,7 @@
 ---
 date: "2014-11-22"
 title: "I vibrate, therefore I smell"
-category: "Biology"
-thumbnail: https://picsum.photos/id/113/400/250
+category: "biology"
 ---
 
 Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can't tell the difference. But here's the catch - we can.

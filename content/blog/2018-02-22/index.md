@@ -1,8 +1,7 @@
 ---
 date: "2018-02-20"
 title: "SQLAlchemy terms defined"
-category: "Programming"
-thumbnail: https://picsum.photos/id/803/400/250
+category: "programming"
 ---
 
 In January of last year I was working on a project that used SQLAlchemy to manage database interactions. Since many of the terms were new to me back then, I thought it would be handy to define a few of them here.
