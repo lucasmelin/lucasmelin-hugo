@@ -21,7 +21,7 @@
   resources.PostProcess -}}
   <link
     rel="stylesheet"
-    href="{{ $styles.Permalink }}"
+    href="{{ $styles.RelPermalink }}"
     integrity="{{ $styles.Data.Integrity }}"
     crossorigin="anonymous"
   />
@@ -52,7 +52,7 @@
   ></script>
   {{ end }} {{ range .AlternativeOutputFormats -}} {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
-  ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}} {{
+  ` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }} {{ end -}} {{
   template "_internal/opengraph.html" . }} {{ template
   "_internal/twitter_cards.html" . }} {{ template "_internal/schema.html" . }}
 </head>
