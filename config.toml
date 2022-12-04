@@ -70,7 +70,7 @@ DefaultContentLanguageInSubdir = false
 # syntax highlight settings
 [markup]
   [markup.highlight]
-    style = "dracula"
+    style = "catppuccin-mocha"
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true

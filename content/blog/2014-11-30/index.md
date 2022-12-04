@@ -4,7 +4,7 @@ title: "Adding Prism syntax highlighting to a Harp server"
 category: "general"
 ---
 
-This website ~~is~~ used to run on a webserver called [Harp](http://harpjs.com). While reading through the [documentation page](http://harpjs.com/docs/development/markdown) on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
+This website used to run on a webserver called [Harp](http://harpjs.com). While reading through the [documentation page](http://harpjs.com/docs/development/markdown) on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
 
 > The language- class name follows the [W3C](http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element) and [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-code-element) convention for specifying the type of code. This also allows you to style it with a client-side syntax highlighting library, like [Prism](http://prismjs.com/).
 

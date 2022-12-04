@@ -26,7 +26,7 @@ Create a new environment by typing the following in the Anaconda prompt: `conda 
 
 ## Installing the C++ Compiler
 
-Some of the dependencies for Prophet, notably PyStan, require a C++ compiler to install. The recommended C++ toolchain is the MingW-w64 toolchain. To install the compiler toolchain, enter the following in the Anaconda prompt `conda install libpython m2w64-toolchain -c msys2` and then type <kbd>y</kbd> when prompted to download and install the required packages and dependencies.
+Some of the dependencies for Prophet, notably PyStan, require a C++ compiler to install. The recommended C++ toolchain is the MingW-w64 toolchain. To install the compiler toolchain, enter the following in the Anaconda prompt `conda install libpython m2w64-toolchain -c msys2` and then type <kbd>`y`</kbd> when prompted to download and install the required packages and dependencies.
 
 This ensures that the msys2 version of MingW-w64 is installed.
 
@@ -50,7 +50,7 @@ compiler=mingw32
 
 # Installing Prophet dependencies
 
-Prophet's major dependency is PyStan, so we'll install the dependencies for PyStan first before installing Prophet. Pystan requires the MingW toolchain to be installed and configured through the previous steps.
+Prophet's major dependency is PyStan, so we'll install the dependencies for PyStan first before installing Prophet. PyStan requires the MingW toolchain to be installed and configured through the previous steps.
 
 Ensure that the latest versions of the PyStan dependencies are installed by running the following in the Anaconda prompt, and typing <kbd>y</kbd> when prompted.
 
@@ -58,10 +58,10 @@ Ensure that the latest versions of the PyStan dependencies are installed by runn
 
 After the installation is complete, install PyStan using either `pip` or `conda` by running one of the following.
 
-- Using pip `pip install pystan`
-- Using conda `conda install -c conda-forge pystan`
+- Using pip: `pip install pystan`
+- Using conda: `conda install -c conda-forge pystan`
 
-Finally, install Propehet using either `pip` or `conda` by running one of the following.
+Finally, install Prophet using either `pip` or `conda` by running one of the following.
 
 - Using pip `pip install fbprophet`
 - Using conda `conda install -c conda-forge fbprophet`

@@ -4,7 +4,7 @@ title: "Performing JOINs on text files"
 category: "programming"
 ---
 
-Linux comes equipped with a handy utility aptly called JOIN which performs join operations on text files.
+Linux comes equipped with a handy utility aptly called `join` which performs join operations on text files.
 
 Performing an inner join is as simple as running **join file1.txt file2.txt**
 

@@ -4,7 +4,7 @@ title: "Fire (ants) and water don't mix"
 category: "myrmecology"
 ---
 
-Native to South America, [**Red Imported Fire Ants**](http://www.eol.org/pages/403244) make their homes underground. These nests are subject to flooding during rainy periods. On its own, a single fire ant _Solenopsis invicta_ will struggle to stay afloat in water, and may even drown. Together though, these ants can form living rafts by linking their bodies together. These rafts enable a large group of thousands to stay alive for days or even months at a time.
+Native to South America, **[Red Imported Fire Ants](http://www.eol.org/pages/403244)** make their homes underground. These nests are subject to flooding during rainy periods. On its own, a single fire ant _Solenopsis invicta_ will struggle to stay afloat in water, and may even drown. Together though, these ants can form living rafts by linking their bodies together. These rafts enable a large group of thousands to stay alive for days or even months at a time.
 
 ![S.Invictus, worker](https://lh3.googleusercontent.com/_SUdJXVDcY1M/TbtyRfnKe1I/AAAAAAAAAS8/BGaGQ8oWHFk/s400/invictusworker.jpg)
 

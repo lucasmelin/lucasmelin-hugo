@@ -4,7 +4,7 @@
   "description": "Personal site for Lucas Melin",
   "main": "index.js",
   "repository": "github.com/lucasmelin/lucasmelin-hugo",
-  "author": "Varun A P",
+  "author": "Lucas Melin",
   "license": "MIT",
   "scripts": {
     "start": "hugo server --disableFastRender",
