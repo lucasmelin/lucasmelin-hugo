@@ -1,6 +1,0 @@
-{
-  "Title": "Wordle Operator",
-  "Link": "https://github.com/lucasmelin/wordle-operator",
-  "Background": "linear-gradient(45deg,hsl(0deg 0% 0%) 17%,hsl(86deg 58% 59%) 86%, hsl(113deg 56% 61%) 90%, hsl(150deg 100% 41%) 100%)",
-  "Description": "Play Wordle from any Kubernetes cluster"
-}

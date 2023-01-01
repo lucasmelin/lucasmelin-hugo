@@ -1,7 +1,8 @@
 ---
 date: "2021-07-23"
 title: "How does pathlib combine paths using slashes?"
-category: "programming"
+tags: ["python"]
+summary: "How does the python pathlib library use the forward-slash character to construct paths?"
 ---
 
 [Pathlib](https://docs.python.org/3/library/pathlib.html) is a python module for working with filesystem paths that's part of the standard library. If you look at the official python docs for how to use pathlib, one of the first examples is this interesting snippet showing how to navigate inside a directory tree:

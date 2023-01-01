@@ -1,6 +1,0 @@
-{
-  "Title": "ELIZA",
-  "Link": "https://github.com/lucasmelin/eliza",
-  "Background": "linear-gradient(230deg, hsl(167, 92%, 54%) 0%, hsl(2, 41%, 48%) 60%, hsl(13, 68%, 15%) 100%)",
-  "Description": "A clone of one of the first Natural Language Processing computer programs"
-}

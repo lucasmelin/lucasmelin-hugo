@@ -1,7 +1,7 @@
 ---
 date: "2014-11-30"
 title: "Adding Prism syntax highlighting to a Harp server"
-category: "general"
+tags: ["javascript"]
 ---
 
 This website used to run on a webserver called [Harp](http://harpjs.com). While reading through the [documentation page](http://harpjs.com/docs/development/markdown) on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
@@ -18,17 +18,17 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 
 2. After clicking download, you'll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.
 
-3. Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I've placed both in a folder named prism.
+3. Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I've placed both in a folder named `prism`.
 
 #### Installing Prism
 
-1. Now that we've dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a \_layout.jade file the Harp converts to HTML. However, the same idea applies if you're using something like a main.css or \_layout.ejs file.
+1. Now that we've dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a `main.less` file that Harp converts to CSS and a `\_layout.jade` file the Harp converts to HTML. However, the same idea applies if you're using something like a `main.css` or `\_layout.ejs` file.
 
 2. In your main.less file, add the line `@import "path_to_prism.css/prism";` to the top of the file.
 
-   Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the [lesscss.org documentation](http://lesscss.org/features/#import-options-css), there should no longer be an issue importing a CSS file, and [Harp v0.14.0](http://harpjs.com/blog/v0-14-0-implicit-autoprefixing) includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.
+   Note: I had issues with importing into my `main.less` file a CSS file, and not a less file. Per the [lesscss.org documentation](http://lesscss.org/features/#import-options-css), there should no longer be an issue importing a CSS file, and [Harp v0.14.0](http://harpjs.com/blog/v0-14-0-implicit-autoprefixing) includes LESS version 1.7.4, however I still had issues. Changing the `prism.css` file extension to `prism.less` solved the problem for me though.
 
-3. Finally, add the line `script(src="/path_to_prism.js/prism.js")` to your \_layout.jade header block, or `<script type="text/javascript" src="/path_to_prism.js/prism.js"></script>` to your Javacript file.
+3. Finally, add the line `script(src="/path_to_prism.js/prism.js")` to your `\_layout.jade` header block, or `<script type="text/javascript" src="/path_to_prism.js/prism.js"></script>` to your Javacript file.
 
 #### Using Prism
 
@@ -48,7 +48,7 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 </html>
 ```
 
-Prism can automatically highlight the syntax for us if we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this ` ```markup`, which will be converted to a `language-markup` class and render as so:
+Prism can automatically highlight the syntax for us if we add a language class to the code block. In Markdown, this can be simply added by including a `language-` class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this ` ```markup`, which will be converted to a `language-markup` class and render as so:
 
 ```html
 <!DOCTYPE html>

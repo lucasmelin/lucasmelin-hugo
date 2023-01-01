@@ -1,7 +1,7 @@
 ---
 date: "2014-11-25"
 title: "Synchronous spawning in corals and sea urchins"
-category: "zoology"
+tags: ["zoology"]
 ---
 
 Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up. However, there is much debate as to the nature of the cue itself.
@@ -10,7 +10,7 @@ A paper put forth by _Levy et al._ in 2007 hinted that cryptochrome protein cycl
 
 Although these might be a form of broad cue to indicate spawning _season_, they don't really put forth an answer as to how corals can spawn within such small timespans as days or even minutes for some species.
 
-A recent paper by Alison Sweeney entitled "Twilight spectral dynamics and the coral reef invertebrate spawning response" indicates that coral reefs, specifically Elkhorn Coral, may be synchronizing their spawning times with the twilight periods of the evenings immediately following the full moon, but rather than using cryptochrome proteins for the minute regulation, they may be using opsins.
+A recent paper by Alison Sweeney entitled ["Twilight spectral dynamics and the coral reef invertebrate spawning response"](https://doi.org/10.1242/jeb.043406) indicates that coral reefs, specifically Elkhorn Coral, may be synchronizing their spawning times with the twilight periods of the evenings immediately following the full moon. Rather than using cryptochrome proteins for the minute regulation, they may be using opsins.
 
 ![Elkhorn Coral - Acropora palmata by nashworld, on Flickr](https://farm6.static.flickr.com/5143/5644714885_de0e3fba9c_z.jpg)
 
@@ -28,7 +28,7 @@ Sea urchins also possess these light sensing opsin proteins. These differ from c
 
 These compound eyes aren't very useful for predatory animals, since diffraction reduces the angular resolution or focus of the eye, but they are ideally suited to prey. This large array of photoreceptors provides the whole picture, enabling the animal to detect movement and changes in light with incredible accuracy.
 
-**Additional Reading and References:**
+### Additional Reading and References
 
 1. [Reproduction in Aquarium Corals](http://reefkeeping.com/issues/2003-05/eb/index.php)
 2. [Twilight spectral dynamics and the coral reef invertebrate spawning response](http://jeb.biologists.org/content/214/5/770.abstract)

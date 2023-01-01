@@ -1,11 +1,13 @@
 ---
 date: "2022-07-02"
 title: "Adapting the python context manager pattern for Go"
-category: "programming"
+tags: ["go", "python"]
+summary: "I’ve recently started writing more Go, and one pattern I miss from Python is context managers, which are especially useful when doing IO."
 ---
 
-I've recently started writing more Go recently, and one pattern I miss from Python was context managers,
-which are especially useful when doing IO{{% sidenote %}}IO refers to input/output, which are interactions with resources outside your program like the file system, network calls, or database connections. {{% /sidenote %}}:
+I've recently started writing more Go, and one pattern I miss from Python is context managers,
+which are especially useful when doing IO:
+{{< alert >}}IO refers to input/output, which are interactions with resources outside your program like the file system, network calls, or database connections.{{< /alert >}}
 
 ```python
 with Path("data.txt").open() as f:
@@ -14,7 +16,9 @@ with Path("data.txt").open() as f:
 # No need to close the file here
 ```
 
-This automatically closes the file once the nested `with` block exits.{{% sidenote %}}Python handles this by registering a call to the `__exit__` [magic method]({{< ref "../2021-07-23/index.md" >}}) that runs once the `with` statement exits.{{% /sidenote %}}
+This automatically closes the file once the nested `with` block exits.{{< alert >}}Python handles this by registering a call to the `__exit__` [magic method]({{< ref "../2021-07-23/index.md" >}}) that runs once the `with` statement exits.{{< /alert >}}
+
+## Using `defer`
 
 In Go, most examples show handling the closing of IO resources by using `defer` statements:
 
@@ -55,6 +59,8 @@ WithFile("data.txt", readFn)
 We create a small function so that we return after we've done our work with the file, relying on the `defer`ed call to `f.Close()` to close the file for us.
 
 But this pattern is fragile, complicated, and it's difficult to pass around values correctly while continuing to match the function signature. We also lose control over when the resource is closed - it will _always_ be closed immediately after our function `fn` is called.
+
+## A better way
 
 Instead, there's a more idomatic, straightforward way to go about this in Go. When we initially open the resource, we _also_ return a function that will handle the freeing of the resource. For example:
 

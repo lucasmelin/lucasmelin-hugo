@@ -1,7 +1,8 @@
 ---
 date: "2021-10-11"
 title: "Managing your GitHub setup with python using the Terraform CDK"
-category: "programming"
+tags: ["github", "python", "terraform"]
+summary: "How to automating the management of a GitHub organization using infrastructure-as-code tooling."
 ---
 
 As you start using GitHub more and more, oftentimes there's configuration and policies that you'd like to consistently apply like branch protection rules or repo names, descriptions, visibility rules, etc. If you're managing a GitHub Organization, managing these through the UI can quickly become a lot of manual work.

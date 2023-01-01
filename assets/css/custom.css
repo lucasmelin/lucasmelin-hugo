@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/fonts/IBMPlexSans-Regular.ttf');
+}
+
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12pt;
+}
+
+
+body {
+    counter-reset: sidenote-counter;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+/* Counter in the margin. */
+@media (min-width: 1800px) {
+    .sidenote::before {
+        content: counter(sidenote-counter)".";
+        position: relative;
+        vertical-align: baseline;
+        font-size: .9em;
+        font-weight: 700;
+    }
+}
+
+/* Counter in the main body. */
+@media (min-width: 1800px) {
+    .sidenote-number::after {
+        content: counter(sidenote-counter);
+        vertical-align: super;
+        font-size: 0.7em;
+        font-weight: bold;
+        margin-right: 0.5rem;
+    }
+}
+
+.sidenote {
+    font-family: sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    background-color: rgba(var(--color-neutral-300), 1);
+    position: relative;
+}
+
+.dark .sidenote {
+    background-color: rgba(var(--color-neutral-800), 1);
+    color: rgba(var(--color-neutral-100), 1);
+}
+
+
+/* Wide viewport. */
+@media (min-width: 1800px) {
+    .sidenote {
+        float: left;
+        clear: left;
+        text-align: right;
+        top: -1rem;
+        width: 20vw;
+        margin-left: -22vw;
+        margin-top: 1rem;
+    }
+
+    .sidenote-number:hover .sidenote {
+        background-color: var(--theme-hl2-color);
+    }
+}
+
+/* Narrow viewport. */
+@media (max-width: 1800px) {
+    .sidenote {
+        float: left;
+        text-align: left;
+        top: 0rem;
+        width: 100%;
+        margin: 1rem 0;
+        padding-left: 5%;
+    }
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *))::before {
+    content: "";
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *))::after {
+    content: "";
+}

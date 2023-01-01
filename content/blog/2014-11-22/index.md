@@ -1,7 +1,7 @@
 ---
 date: "2014-11-22"
 title: "I vibrate, therefore I smell"
-category: "biology"
+tags: ["biology"]
 ---
 
 Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can't tell the difference. But here's the catch - we can.
@@ -20,6 +20,6 @@ Deuterated octanol and [nitriles](http://en.wikipedia.org/wiki/Nitrile) are chem
 
 These experiments indicate that we do in fact depend on the vibrations of molecules in order to smell them, at least in part. This result could also help in developing better "artificial noses", with far-reaching effects.
 
-**Additional Reading and References:**
+### Additional Reading and References
 
 [[IEEE Spectrum]](http://spectrum.ieee.org/biomedical/diagnostics/nose-works-like-a-scanning-tunneling-microscope "http://spectrum.ieee.org/biomedical/diagnostics/nose-works-like-a-scanning-tunneling-microscope") via [[PopSci]](http://www.popsci.com/science/article/2011-02/your-nose-could-leverage-quantum-tools-distinguish-between-similar-molecules "http://www.popsci.com/science/article/2011-02/your-nose-could-leverage-quantum-tools-distinguish-between-similar-molecules")

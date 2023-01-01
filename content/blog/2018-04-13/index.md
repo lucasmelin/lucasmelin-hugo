@@ -1,7 +1,7 @@
 ---
 date: "2018-04-13"
 title: "Java vararg constructors and reflection"
-category: "programming"
+tags: ["java"]
 ---
 
 On a recent Selenium project, I was trying to develop tests for a page with a long, dynamic form. This form has several types, with some shared fields across each type, with the number of possible fields ranging around 30-50 fields.
