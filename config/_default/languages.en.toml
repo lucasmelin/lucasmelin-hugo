@@ -14,8 +14,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Lucas Melin"
   image = "img/picture.webp"
-  headline = "Pokin' at things on the internet."
-  bio = "I love coming up with creative solutions to challenging puzzles and helping developers succeed."
+  bio = "Focused on helping developers succeed."
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

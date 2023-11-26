@@ -7,7 +7,7 @@ keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
 
-During my free time I like to read, do the New York Times crossword and listen to podcasts. I also like playing puzzle games, especially those made by [Zachtronics](https://www.zachtronics.com/).
+During my free time [I like to read](https://literal.club/lucasmelin), do word games like the New York Times crossword or [Puzzmo](https://www.puzzmo.com) and listen to podcasts. I also like playing puzzle games, especially those made by [Zachtronics](https://www.zachtronics.com/).
 
 ## Some of my favourite podcasts
 
