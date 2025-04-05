@@ -32,8 +32,27 @@
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{- else -}}
-    {{- with $.Site.Params.images }}
-    <meta property="og:image" content="{{ index . 0 | absURL }}" />{{ end -}}
+    {{- $hash := printf "%x" (sha1 .Title) -}}
+    {{- $hue := mod (int (substr $hash 0 4)) 360 -}}
+    {{- $saturation := add (mod (int (substr $hash 4 2)) 50) 50 -}}
+    {{- $lightness := add (mod (int (substr $hash 6 2)) 30) 40 -}}
+
+    {{- $defaultColor1 := printf "hsl(%d,%d%%,%d%%)" $hue $saturation $lightness | safeCSS -}}
+
+    {{- $hue2 := mod (int (substr $hash 8 4)) 360 -}}
+    {{- $saturation2 := add (mod (int (substr $hash 12 2)) 50) 50 -}}
+    {{- $lightness2 := add (mod (int (substr $hash 14 2)) 30) 40 -}}
+
+    {{- $defaultColor2 := printf "hsl(%d,%d%%,%d%%)" $hue2 $saturation2 $lightness2 | safeCSS -}}
+
+    {{- $color1 := .Params.color1 | default $defaultColor1 -}}
+    {{- $color2 := .Params.color2 | default $defaultColor2 -}}
+
+    <div class="{{ $articleImageClasses }}" style="position: relative; background-image:linear-gradient(135deg, {{ $color1 }}, {{ $color2 }});">
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; width: 100%; padding: 0 10px; box-sizing: border-box; font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+        {{ .Title | emojify }}
+      </div>
+    </div>
     {{- end -}}
     {{- end -}}
 
