@@ -28,7 +28,7 @@
     {{- $featured := $images.GetMatch "*feature*" -}}
     {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
     {{- with $featured -}}
-    {{ with .Fill "600x400" }}
+    {{ with .Fill "300x180" }}
     <div class="{{ $articleImageClasses }}" style="background-image:url({{ .RelPermalink }});"></div>
     {{ end }}
     {{- else -}}

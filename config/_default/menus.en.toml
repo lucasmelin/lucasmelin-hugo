@@ -20,11 +20,6 @@
   pageRef = "projects"
   weight = 20
 
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 30
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

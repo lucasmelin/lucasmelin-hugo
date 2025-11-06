@@ -11,10 +11,10 @@ copyright = "© 2025 by Lucas Melin. All rights reserved."
 
 dateFormat = "2 January 2006"
 
-[author]
+[params.author]
   name = "Lucas Melin"
   image = "img/picture.webp"
-  bio = "Focused on helping developers succeed."
+  # headline = ""
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

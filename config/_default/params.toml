@@ -30,8 +30,8 @@ mainSections = ["blog"]
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/blobup.webp" # used in: hero, and card
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "img/blobup.webp" # used in: hero, and card
   showRecent = true
   showRecentItems = 3
   showMoreLink = true

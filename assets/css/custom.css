@@ -89,3 +89,7 @@ body {
 .prose :where(code):not(:where([class~="not-prose"] *))::after {
     content: "";
 }
+
+.dark code {
+    background-color: #1e1e2e;
+}

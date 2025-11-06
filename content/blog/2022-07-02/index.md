@@ -7,7 +7,8 @@ summary: "I’ve recently started writing more Go, and one pattern I miss from P
 
 I've recently started writing more Go, and one pattern I miss from Python is context managers,
 which are especially useful when doing IO:
-{{< alert >}}IO refers to input/output, which are interactions with resources outside your program like the file system, network calls, or database connections.{{< /alert >}}
+
+{{< alert icon=circle-info >}}IO refers to input/output, which are interactions with resources outside your program like the file system, network calls, or database connections.{{< /alert >}}
 
 ```python
 with Path("data.txt").open() as f:
@@ -16,7 +17,7 @@ with Path("data.txt").open() as f:
 # No need to close the file here
 ```
 
-This automatically closes the file once the nested `with` block exits.{{< alert >}}Python handles this by registering a call to the `__exit__` [magic method]({{< ref "../2021-07-23/index.md" >}}) that runs once the `with` statement exits.{{< /alert >}}
+This automatically closes the file once the nested `with` block exits.{{< alert icon=circle-info >}}Python handles this by registering a call to the `__exit__` [magic method]({{< ref "../2021-07-23/index.md" >}}) that runs once the `with` statement exits.{{< /alert >}}
 
 ## Using `defer`
 
