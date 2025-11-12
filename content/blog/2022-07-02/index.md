@@ -3,6 +3,7 @@ date: "2022-07-02"
 title: "Adapting the python context manager pattern for Go"
 tags: ["go", "python"]
 summary: "I’ve recently started writing more Go, and one pattern I miss from Python is context managers, which are especially useful when doing IO."
+slug: "adapting-the-python-context-manager-pattern-for-go"
 ---
 
 I've recently started writing more Go, and one pattern I miss from Python is context managers,

@@ -3,6 +3,7 @@ date: "2018-02-20"
 title: "Performing JOINs on text files"
 summary: "Linux comes equipped with a handy utility aptly called `join` which performs join operations on text files."
 tags: ["unix"]
+slug: performing-joins-on-text-files
 ---
 
 Linux comes equipped with a handy utility aptly called `join` which performs join operations on text files.

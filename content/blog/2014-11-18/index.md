@@ -2,6 +2,7 @@
 date: "2014-11-18"
 title: "Meryra, right hand of the “Heretic King”"
 tags: ["history", "egypt"]
+slug: meryra-right-hand-of-the-heretic-king
 ---
 
 Although it was never finished and remains unoccupied, the [tomb of Meryra located in Amarna](http://www.360cities.net/image/tomb-of-meryra-amarna-egypt) is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.

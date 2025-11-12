@@ -2,6 +2,7 @@
 date: "2019-03-30"
 title: "Getting started with fbprophet on Windows 10"
 tags: ["python"]
+slug: getting-started-with-fbprophet-on-windows-10
 ---
 
 I recently decided to look at my past purchases, and see if I could leverage that data to predict some of my personal spending trends.

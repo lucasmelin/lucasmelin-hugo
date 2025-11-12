@@ -1,0 +1,40 @@
+// assets/sass/vendors/_admonitions-user-settings.scss
+
+// Define Catppuccin Mocha colors (example)
+$catppuccin-blue: #89b4fa;
+$catppuccin-green: #a6e3a1;
+$catppuccin-peach: #fab387;
+$catppuccin-yellow: #f9e2af;
+$catppuccin-red: #f38ba8;
+$catppuccin-pink: #f5c2e7;
+$catppuccin-mauve: #cba6f7;
+$catppuccin-sapphire: #74c7ec;
+$catppuccin-teal: #94e2d5;
+$catppuccin-sky: #89dceb;
+$catppuccin-rosewater: #f5e0dc;
+$catppuccin-lavender: #b4befe;
+
+
+// Override the default color for specific admonition types.
+$admonition-colors-overrides: (
+    abstract: $catppuccin-sapphire,
+    code: $catppuccin-mauve,
+    conclusion: $catppuccin-sky,
+    danger: $catppuccin-peach,
+    error: $catppuccin-red,
+    example: $catppuccin-yellow,
+    experiment: $catppuccin-teal,
+    goal: $catppuccin-pink,
+    idea: $catppuccin-green,
+    important: $catppuccin-yellow,
+    info: $catppuccin-lavender,
+    memo: $catppuccin-pink,
+    note: $catppuccin-blue,
+    notify: $catppuccin-blue,
+    question: $catppuccin-teal,
+    quote: $catppuccin-sapphire,
+    success: $catppuccin-green,
+    task: $catppuccin-mauve,
+    tip: $catppuccin-green,
+    warning: $catppuccin-yellow,
+);
