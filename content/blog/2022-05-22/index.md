@@ -6,8 +6,6 @@ summary: "A quick how-to for installing Go tools globally."
 slug: install-go-tools-globally
 ---
 
-# Installing Go tools globally
-
 There are several useful command-line tools in the Go ecosystem such as [`delve`](https://github.com/go-delve/delve),
 [`godoc`](https://pkg.go.dev/golang.org/x/tools/cmd/godoc) and [`staticcheck`](https://staticcheck.io/) to name a few.
 

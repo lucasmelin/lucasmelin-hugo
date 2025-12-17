@@ -2,11 +2,9 @@
 date: "2022-04-20"
 title: "Selecting elements matching one of the conditions in Playwright"
 tags: ["playwright", "til"]
-summary: "In working with Playwright), sometimes you need to search for an element like a button or dropdown that might have one of several attributes."
-slug: playwright-multiple-select-conditions
+summary: "In working with Playwright, sometimes you need to search for an element like a button or dropdown that might have one of several attributes."
+slug: playwright-select-conditions
 ---
-
-# Selecting elements matching one of the conditions in Playwright
 
 In working with [Playwright](https://playwright.dev/), sometimes you need to search for an element like a button or dropdown that might have one of several attributes.
 

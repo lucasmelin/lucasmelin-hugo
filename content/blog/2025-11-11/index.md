@@ -6,8 +6,6 @@ summary: "I've been spending more time in Discord lately, and I've been wanting 
 slug: integrating-todoist-and-discord-using-windmill
 ---
 
-# Integrating Todoist and Discord using Windmill
-
 I've been spending more time in [Discord](https://discord.com/) lately, and I've been wanting a way to see the status of my [Todoist](https://app.todoist.com/app/inbox) tasks directly in Discord. Since there currently isn’t a first-party integration for Todoist and Discord, let’s build our own using [Windmill](https://www.windmill.dev/) and webhooks. At the end of this example, we'll be able to see when new Todoist items are created or completed in Discord.
 
 ## Why Windmill?
