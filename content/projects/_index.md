@@ -1,3 +1,3 @@
 ---
-title: Weekend Projects
+title: Side Projects
 ---
