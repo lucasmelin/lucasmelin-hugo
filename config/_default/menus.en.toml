@@ -20,6 +20,11 @@
   pageRef = "projects"
   weight = 20
 
+[[main]]
+  name = "Tools"
+  url = "https://tools.lucasmelin.com"
+  weight = 30
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
