@@ -88,7 +88,10 @@
 
       {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
       <div class="py-1 prose dark:prose-invert">
-        {{ .Summary | emojify }}
+        <div class="font text-md text-neutral-800 decoration-primary-500 dark:text-neutral">
+          {{ .Summary | emojify }}
+        </div>
+        {{ .Content }}
       </div>
       {{ end }}
     </div>

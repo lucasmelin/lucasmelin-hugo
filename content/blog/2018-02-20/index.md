@@ -3,7 +3,7 @@ date: "2018-02-20"
 title: "AWK Built-in Variables"
 summary: "A common choice for manipulating and processing large text files on UNIX systems is `awk`. I was using `awk` in March of 2017 and thought it would be helpful to have a list of `awk` built-in variables for future reference."
 tags: ["unix"]
-slug: awk-built-in-variables
+slug: awk-built-in-vars
 ---
 
 A common choice for manipulating and processing large text files on UNIX systems is `awk`. I was using `awk` in March of 2017 and thought it would be helpful to have a list of `awk` built-in variables for future reference.

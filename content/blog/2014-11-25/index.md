@@ -2,7 +2,7 @@
 date: "2014-11-25"
 title: "Synchronous spawning in corals and sea urchins"
 tags: ["zoology"]
-slug: synchronous-spawning-in-corals-and-sea-urchins
+slug: synchronous-coral-spawning
 ---
 
 Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up. However, there is much debate as to the nature of the cue itself.

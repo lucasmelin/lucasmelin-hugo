@@ -2,7 +2,7 @@
 date: "2025-12-17"
 title: "ty: An extremely fast Python type checker and LSP"
 tags: ["python"]
-summary: "ty: An extremely fast Python type checker and LSP"
+summary: "ty: An extremely fast Python type checker and LSP."
 slug: ty-python-beta
 ---
 

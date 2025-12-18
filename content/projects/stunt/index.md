@@ -7,3 +7,5 @@ summary: A simple tool for displaying your public IP address from the command li
 color1: "#B43E8F"
 color2: "#3B0086"
 ---
+
+A weekend exploration to better understand how Session Traversal Utilities for NAT works.

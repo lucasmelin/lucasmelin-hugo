@@ -5,3 +5,5 @@ link: https://marketplace.visualstudio.com/items?itemName=lucasmelin.airflow-sni
 summary: "An Apache Airflow Snippets Extension for Visual Studio Code."
 github:  https://github.com/lucasmelin/airflow-snippets
 ---
+
+This collection of snippets was put together over a weekend to reduce the boilerplate involved in writing [Airflow](https://airflow.apache.org/) pipelines for me and my colleagues. This was the first VS Code plugin that I built.

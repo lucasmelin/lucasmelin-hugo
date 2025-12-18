@@ -3,7 +3,7 @@ date: "2023-11-26"
 title: "Automatically detecting and resolving deprecations using Semgrep"
 tags: ["semgrep", "go", "bash"]
 summary: "Managing deprecations oftentimes requires a lot of manual work and communication. But what if we could automate this process instead?"
-slug: automatically-detecting-and-resolving-deprecations-using-semgrep
+slug: addressing-deprecations-with-semgrep
 ---
 
 Working on internal tools for developers, it's common to deprecate unused features or outdated workflows.

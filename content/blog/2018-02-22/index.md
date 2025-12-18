@@ -2,7 +2,7 @@
 date: "2018-02-20"
 title: "SQLAlchemy terms defined"
 tags: ["python", "sql"]
-slug: sqlalchemy-terms-defined
+slug: sqlalchemy-terms
 ---
 
 In January of last year I was working on a project that used SQLAlchemy to manage database interactions. Since many of the terms were new to me back then, I thought it would be handy to define a few of them here.

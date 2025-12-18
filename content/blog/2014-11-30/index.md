@@ -2,7 +2,7 @@
 date: "2014-11-30"
 title: "Adding Prism syntax highlighting to a Harp server"
 tags: ["javascript"]
-slug: adding-prism-syntax-highlighting-to-a-harp-server
+slug: prism-syntax-highlighting-in-harp
 ---
 
 This website used to run on a webserver called [Harp](http://harpjs.com). While reading through the [documentation page](http://harpjs.com/docs/development/markdown) on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
@@ -35,7 +35,7 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 
 1. Now that we've installed Prism, whenever we include code blocks such as the following:
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

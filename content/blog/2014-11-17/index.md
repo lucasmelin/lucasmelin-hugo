@@ -2,7 +2,7 @@
 date: "2014-11-17"
 title: "A lesson learned in including javascript libraries properly"
 tags: ["javascript"]
-slug: a-lesson-learned-in-including-javascript-libraries-properly
+slug: javascript-includes
 ---
 
 I figured I'd sit down and quickly add a navigation header to my site just to have it in place, so that I could add links to it later.

@@ -5,3 +5,5 @@ link: https://github.com/lucasmelin/dinosaur
 github: https://github.com/lucasmelin/dinosaur
 summary: A toy DNS resolver that follows the journey of an ASCII dinosaur.
 ---
+
+A weekend exploration inspired by [Implement DNS in a weekend](https://implement-dns.wizardzines.com/index.html) by Julia Evans.

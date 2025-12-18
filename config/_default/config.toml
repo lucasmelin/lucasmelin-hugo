@@ -27,3 +27,7 @@ pagerSize = 20
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  [permalinks.page]
+    blog = "/blog/:06/:1/:2/:slug/"
