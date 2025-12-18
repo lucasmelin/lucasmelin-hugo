@@ -2,10 +2,11 @@
 date: "2025-12-18"
 title: "canine: A Developer-friendly PaaS for your Kubernetes"
 tags: ["kubernetes"]
+summary: "canine: A Developer-friendly PaaS for your Kubernetes"
 slug: canine
 ---
 
-[canine: A Developer-friendly PaaS for your Kubernetes](https://canine.sh/) ([via](https://news.ycombinator.com/item?id=46307973#46308935)): I came across canine today, which is a open-source (Apache 2.0 License) deployment platform that runs on Kubernetes.
+[canine: A Developer-friendly PaaS for your Kubernetes](https://canine.sh/) ([via](https://news.ycombinator.com/item?id=46307973#46308935)): I came across Canine today, which is a open-source (Apache 2.0 License) deployment platform that runs on Kubernetes.
 
 After running the installation script, I was able to login to the Web UI at http://localhost:3456, create an account, and add a GitHub Personal Access Token to the **Credentials** page.
 
