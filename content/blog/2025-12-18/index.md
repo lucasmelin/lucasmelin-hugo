@@ -2,7 +2,7 @@
 date: "2025-12-18"
 title: "canine: A Developer-friendly PaaS for your Kubernetes"
 tags: ["kubernetes"]
-summary: "canine: A Developer-friendly PaaS for your Kubernetes"
+summary: "canine: A Developer-friendly PaaS for your Kubernetes."
 slug: canine
 ---
 
