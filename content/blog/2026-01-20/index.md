@@ -84,7 +84,7 @@ In the above example, we're using `transformerMetaHighlight` so that we can high
 This will cause `Shiki` to emit lines that look like `<span class="line highlighted">`, but we still need to handle the CSS styling ourselves.
 
 > [!Note]
-> Depending on how your CSS is loaded, you may need to use `!important` to ensure that your CSS styles are not overridden by the default `Shiki` styles after the page loads. This happend because `Shiki` applies its styles dynamically via JavaScript, which can overwrite preexisting page styles.
+> Depending on how your CSS is loaded, you may need to use `!important` to ensure that your CSS styles are not overridden by the default `Shiki` styles after the page loads. This happens because `Shiki` applies its styles dynamically via JavaScript, which can overwrite preexisting page styles.
 
 If you're using [Tailwind](https://tailwindcss.com/), one way to do this is by opening your `tailwind.config.js` file and adding a new style for the `pre code span.highlighted` selector. As a reference, here's the relevant snippet from my config:
 
